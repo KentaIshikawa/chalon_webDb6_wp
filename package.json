@@ -1,0 +1,19 @@
+{
+  "name": "chalon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky",
+    "preautogit":"git add .",
+    "autogit":"git commit -m '\"+%Y-%m-%d\"'",
+    "postautogit":"git push origin master"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
