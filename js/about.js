@@ -6,7 +6,6 @@ const about_ob_func = (entries) => {
     }
 }
 
-
 const about_ob_param = {
     rootMargin: '-100px'
 }
