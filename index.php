@@ -1,9 +1,1 @@
-aiueoppassssssssssa
-aaa
-
-aaa
-
-
-aaa
-
-どやー
+出来たー
