@@ -7,9 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky",
     "timestamp":"powershell -Command \"Get-Date -Format 'yyyyMMddHHmmss'\"",
-    "preautogit":"git add .",
-    "autogit":"git commit -m 'time-'",
-    "postautogit":"git push origin master"
+    "autogit":"node scripts/git-auto.js"
   },
   "keywords": [],
   "author": "",
