@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky",
     "preautogit":"git add .",
-    "autogit":"git commit -m '\"+%Y-%m-%d\"'",
+    "autogit":"git commit -m '${Date.now()}'",
     "postautogit":"git push origin master"
   },
   "keywords": [],
