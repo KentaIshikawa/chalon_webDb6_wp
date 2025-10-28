@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky",
+    "timestamp":"powershell -Command \"Get-Date -Format 'yyyyMMddHHmmss'\"",
     "preautogit":"git add .",
-    "autogit":"git commit -m '${Date.now()}'",
+    "autogit":"git commit -m 'time-'",
     "postautogit":"git push origin master"
   },
   "keywords": [],
