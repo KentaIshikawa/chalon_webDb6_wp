@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/*
+SP ～519px
+tab 520px～959px
+pc 960px～
+*/
+
+.access {
+    margin-bottom: var(--footer-gutter);
+}
+
+.access .access_inner {
+    padding: 0 var(--contents-side-gutter);
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.access .access_inner .map {
+    margin-bottom: var(--contents-gutter);
+}
+
+.access .access_inner address {
+    font-style: normal;
+    margin-bottom: var(--contents-gutter);
+}
+
+.access .access_inner .access_btn {
+    border: 1px solid #3cad5a;
+    color: #3cad5a;
+    margin-bottom: var(--contents-gutter);
+}
+
+.access .access_inner dt {
+    margin-bottom: var(--gutter-base);
+    color: var(--main-color);
+}
+
+.access .access_inner dd ol {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.access .access_inner dd ol li {
+    margin-bottom: var(--gutter-base);
+}
+
+.access .access_inner dl:not(:last-child) {
+    margin-bottom: calc(var(--gutter-base)*3);
+}
+
+@media screen and (min-width:960px) {
+    .access .access_inner .map {
+        margin-bottom: var(--contents-gutter-pc);
+    }
+
+    .access .access_inner address {
+        margin-bottom: var(--contents-gutter-pc);
+    }
+
+    .access .access_inner .access_btn {
+        margin-bottom: var(--contents-gutter-pc);
+    }
+
+    .access .access_inner .access_btn:hover {
+        background-color: #3cad5a;
+        color: #fff;
+    }
+}
+
+/*=======min-width:960px=======*/
