@@ -16,7 +16,7 @@ function chalon_enqueue(){
         'chalon-reset',
         get_template_directory_uri().'/css/common/reset.css',
         [],
-        2
+        filemtime(get_theme_file_path('/css/common/reset.css'))
     );
 
 }///////CSS・JSの読み込みここまで//////////////
