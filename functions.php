@@ -80,7 +80,7 @@ function chalon_enqueue(){
             filemtime(get_theme_file_path('/css/common/under.css'))
         );
     }
-
+    //当店について
     if(is_page('about')){
         wp_enqueue_style(
             'chalon-about',
@@ -94,6 +94,15 @@ function chalon_enqueue(){
             [],
             filemtime(get_theme_file_path('/js/about.js')),
             true
+        );
+    }
+    //アクセス
+    if(is_page('access')){
+        wp_enqueue_style(
+            'chalon-access',
+            get_template_directory_uri().'/css/page/access.css',
+            [],
+            filemtime(get_theme_file_path('/css/page/access.css'))
         );
     }
 
