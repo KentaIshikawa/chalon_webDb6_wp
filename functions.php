@@ -26,7 +26,13 @@ function chalon_enqueue(){
     );
 
     //全ページ共通のjsの読み込み（jquery、common.js）
-    wp_enqueue_script('jquery');
-    
+    wp_enqueue_script(
+        'chalon-jquery',
+        'https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js',
+        [],
+        '',
+        true
+    );
+
 
 }///////CSS・JSの読み込みここまで//////////////
