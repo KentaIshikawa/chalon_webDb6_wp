@@ -11,6 +11,7 @@
 
 
 
+
     <!-- slickのJavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script>
