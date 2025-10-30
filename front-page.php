@@ -45,7 +45,7 @@
     </header>
     <div class="key_title">
         <div class="key_title_inner">
-            <img src="img/key_lead.svg" alt="CHALONの想いです">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/key_lead.svg" alt="CHALONの想いです">
         </div>
     </div>
     <div class="concept">
@@ -87,8 +87,8 @@
             </div>
             <div class="concept_img">
                 <picture>
-                    <source srcset="img/top_shop.webp" type="image/webp">
-                    <img src="img/top_shop.jpg" alt="CHALONの店舗">
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/img/top_shop.webp" type="image/webp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/top_shop.jpg" alt="CHALONの店舗">
                 </picture>
             </div>
         </div>
