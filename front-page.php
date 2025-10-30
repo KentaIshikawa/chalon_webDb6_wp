@@ -26,7 +26,7 @@
         <div class="header_inner">
             <h1 class="logo">
                 <a href="./">
-                    <img src="img/logo.svg" alt="洋菓子店CHALON">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="洋菓子店CHALON">
                 </a>
             </h1>
             <div class="hum_menu">
