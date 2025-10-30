@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page/top.css">
     <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
     <header>
         <div class="header_inner">
             <h1 class="logo">
