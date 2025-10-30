@@ -34,7 +34,7 @@ function chalon_enqueue(){
         true
     );
 
-        wp_enqueue_script(
+    wp_enqueue_script(
         'chalon-jquery',
         'https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js',
         [],
