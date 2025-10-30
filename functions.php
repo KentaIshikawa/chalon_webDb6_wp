@@ -4,5 +4,9 @@ add_action('wp_enqueue_scripts','chalon_enqueue');
 
 function chalon_enqueue(){
     //全ページ共通のCSSの読み込み（google fonts、icon font、reset.css）
+    wp_enqueue_style(
+        'google-fonts',
+        'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap'
+    );
 
 }///////CSS・JSの読み込みここまで//////////////
