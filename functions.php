@@ -57,7 +57,14 @@ function chalon_enqueue(){
             [],
             filemtime(get_theme_file_path('/css/page/top.css'))
         );
-
+        //topページで使うjsを読み込む（slick、top.js）
+        wp_enqueue_script(
+        'chalon-jquery',
+        'https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js',
+        [],
+        '',
+        true
+    );
 
     }
 
