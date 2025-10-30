@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <?php get_template_part('template/under'); ?>
+
     <section class="about">
         <h3 class="page_title">当店のこだわり</h3>
         <section class="about_sozai">
@@ -50,5 +51,7 @@
             </div>
         </section>
     </section>
+
+
 
 <?php get_footer(); ?>
