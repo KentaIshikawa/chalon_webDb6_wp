@@ -1,9 +1,15 @@
 <div class="under_title">
     <div class="under_title_inner center">
         <h2>
-            <?php if(is_page('about')): ?>
+            <?php
+                $file = '';
+                $alt = '';
+                if(is_page('about')){
+                    $file = 'about';
+                    $alt = 'アバウト';
+                }
+            ?>
 
-            <?php endif; ?>
 
             <?php if(is_page('access')): ?>
 
