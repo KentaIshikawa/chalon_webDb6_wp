@@ -74,10 +74,10 @@ function chalon_enqueue(){
         );
     }else{
         wp_enqueue_style(
-            'chalon-top',
-            get_template_directory_uri().'/css/page/top.css',
+            'chalon-under',
+            get_template_directory_uri().'/css/common/under.css',
             [],
-            filemtime(get_theme_file_path('/css/page/top.css'))
+            filemtime(get_theme_file_path('/css/common/under.css'))
         );
     }
 
