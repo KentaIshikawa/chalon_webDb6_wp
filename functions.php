@@ -82,7 +82,12 @@ function chalon_enqueue(){
     }
 
     if(is_page('about')){
-
+        wp_enqueue_style(
+            'chalon-about',
+            get_template_directory_uri().'/css/page/about.css',
+            [],
+            filemtime(get_theme_file_path('/css/page/about.css'))
+        );
     }
 
 }///////CSS・JSの読み込みここまで//////////////
