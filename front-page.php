@@ -122,68 +122,68 @@
                 </li>
                 <li>
                     <picture>
-                        <source srcset="img/menu_04.webp" type="image/webp">
-                        <img src="img/menu_04.jpg" alt="menu_04">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_04.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/menu_04.jpg" alt="menu_04">
                     </picture>
                 </li>
                 <li>
                     <picture>
-                        <source srcset="img/menu_05.webp" type="image/webp">
-                        <img src="img/menu_05.jpg" alt="menu_05">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_05.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/menu_05.jpg" alt="menu_05">
                     </picture>
                 </li>
                 <li>
                     <picture>
-                        <source srcset="img/menu_06.webp" type="image/webp">
-                        <img src="img/menu_06.jpg" alt="menu_06">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_06.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/menu_06.jpg" alt="menu_06">
                     </picture>
                 </li>
                 <li>
                     <picture>
-                        <source srcset="img/menu_07.webp" type="image/webp">
-                        <img src="img/menu_07.jpg" alt="menu_07">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_07.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/menu_07.jpg" alt="menu_07">
                     </picture>
                 </li>
                 <li>
                     <picture>
-                        <source srcset="img/menu_08.webp" type="image/webp">
-                        <img src="img/menu_08.jpg" alt="menu_08">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_08.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/menu_08.jpg" alt="menu_08">
                     </picture>
                 </li>
                 <li>
                     <picture>
-                        <source srcset="img/menu_09.webp" type="image/webp">
-                        <img src="img/menu_09.jpg" alt="menu_09">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_09.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/menu_09.jpg" alt="menu_09">
                     </picture>
                 </li>
                 <li>
                     <picture>
-                        <source srcset="img/menu_10.webp" type="image/webp">
-                        <img src="img/menu_10.jpg" alt="menu_10">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_10.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/menu_10.jpg" alt="menu_10">
                     </picture>
                 </li>
                 <li>
                     <picture>
-                        <source srcset="img/menu_11.webp" type="image/webp">
-                        <img src="img/menu_11.jpg" alt="menu_11">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_11.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/menu_11.jpg" alt="menu_11">
                     </picture>
                 </li>
                 <li>
                     <picture>
-                        <source srcset="img/menu_12.webp" type="image/webp">
-                        <img src="img/menu_12.jpg" alt="menu_12">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_12.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/menu_12.jpg" alt="menu_12">
                     </picture>
                 </li>
                 <li>
                     <picture>
-                        <source srcset="img/menu_13.webp" type="image/webp">
-                        <img src="img/menu_13.jpg" alt="menu_13">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_13.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/menu_13.jpg" alt="menu_13">
                     </picture>
                 </li>
                 <li>
                     <picture>
-                        <source srcset="img/menu_14.webp" type="image/webp">
-                        <img src="img/menu_14.jpg" alt="menu_14">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_14.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/menu_14.jpg" alt="menu_14">
                     </picture>
                 </li>
             </ul>
@@ -199,10 +199,10 @@
     <section class="lesson">
         <div class="lesson_inner center">
             <h2>
-                <img class="sp contents_title" src="img/spacer.png" style="height: 67px;" alt="lesson"
-                    data-src="img/title_lesson_sp.svg">
-                <img class="pc contents_title" src="img/spacer.png" alt="lesson" style="height: 135px;"
-                    data-src="img/title_lesson_pc.svg">
+                <img class="sp contents_title" src="<?php echo get_template_directory_uri(); ?>/img/spacer.png" style="height: 67px;" alt="lesson"
+                    data-src="<?php echo get_template_directory_uri(); ?>/img/title_lesson_sp.svg">
+                <img class="pc contents_title" src="<?php echo get_template_directory_uri(); ?>/img/spacer.png" alt="lesson" style="height: 135px;"
+                    data-src="<?php echo get_template_directory_uri(); ?>/img/title_lesson_pc.svg">
             </h2>
             <p class="lesson_text">
                 CHALONでは、毎月第１・第２土曜日に、ご家族で参加できるお菓子教室を開催しています。<br>
@@ -210,8 +210,8 @@
                 家族の楽しい思い出作りに、是非御参加ください。
             </p>
             <picture class="lesson_img">
-                <source srcset="img/top_lesson.webp" type="image/webp">
-                <img src="img/top_lesson.jpg" alt="お菓子教室イメージ画像">
+                <source srcset="<?php echo get_template_directory_uri(); ?>/img/top_lesson.webp" type="image/webp">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/top_lesson.jpg" alt="お菓子教室イメージ画像">
             </picture>
             <a href="lesson/" class="btn">お菓子教室についてもっと見る</a>
         </div>
@@ -220,10 +220,10 @@
     <section class="news">
         <div class="news_inner">
             <h2>
-                <img class="sp contents_title" src="img/spacer.png" style="height: 67px;" alt="news"
-                    data-src="img/title_news_sp.svg">
-                <img class="pc contents_title" src="img/spacer.png" alt="news" style="height: 135px;"
-                    data-src="img/title_news_pc.svg">
+                <img class="sp contents_title" src="<?php echo get_template_directory_uri(); ?>/img/spacer.png" style="height: 67px;" alt="news"
+                    data-src="<?php echo get_template_directory_uri(); ?>/img/title_news_sp.svg">
+                <img class="pc contents_title" src="<?php echo get_template_directory_uri(); ?>/img/spacer.png" alt="news" style="height: 135px;"
+                    data-src="<?php echo get_template_directory_uri(); ?>/img/title_news_pc.svg">
             </h2>
             <dl>
                 <dt><time datetime="2023-08-01">2023年08月01日</time></dt>
@@ -249,7 +249,7 @@
     </section>
     <footer>
         <div class="footer_inner">
-            <img src="img/logo_white.svg" alt="洋菓子店CHALON">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/logo_white.svg" alt="洋菓子店CHALON">
             <address>
                 TEL:03-1234-5678<br>
                 〒132-4567 東京都新宿区愛住町 22 第三山田ビル1F
@@ -260,8 +260,8 @@
 
     <div class="mv">
         <div class="mv_inner">
-            <video class="sp" src="movie/sp.mp4" autoplay muted loop playsinline></video>
-            <video class="pc" src="movie/pc.mp4" autoplay muted loop playsinline></video>
+            <video class="sp" src="<?php echo get_template_directory_uri(); ?>/movie/sp.mp4" autoplay muted loop playsinline></video>
+            <video class="pc" src="<?php echo get_template_directory_uri(); ?>/movie/pc.mp4" autoplay muted loop playsinline></video>
         </div>
     </div>
     <div id="bg" class="bg"></div>
