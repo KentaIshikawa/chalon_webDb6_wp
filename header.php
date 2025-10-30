@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css">
 
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common/common.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page/top.css">
     <?php wp_head(); ?>
 </head>
