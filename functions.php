@@ -26,6 +26,12 @@ function chalon_enqueue(){
     );
 
     //全ページ共通のjsの読み込み（jquery、common.js）
-    wp_enqueue_script('jquery');
+    wp_enqueue_script(
+        'jquery',
+        '',
+        [],
+        ''
+        true
+    );
 
 }///////CSS・JSの読み込みここまで//////////////
