@@ -18,7 +18,6 @@ function chalon_enqueue(){
         [],
         filemtime(get_theme_file_path('/css/common/reset.css'))
     );
-
     wp_enqueue_style(
         'chalon-common',
         get_template_directory_uri().'/css/common/common.css',
