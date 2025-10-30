@@ -81,5 +81,8 @@ function chalon_enqueue(){
         );
     }
 
+    if(is_page('about')){
+
+    }
 
 }///////CSS・JSの読み込みここまで//////////////
