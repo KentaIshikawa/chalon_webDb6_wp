@@ -8,5 +8,9 @@ function chalon_enqueue(){
         'google-fonts',
         'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap'
     );
+    wp_enqueue_style(
+        'google-icon',
+        'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0'
+    );
 
 }///////CSS・JSの読み込みここまで//////////////
