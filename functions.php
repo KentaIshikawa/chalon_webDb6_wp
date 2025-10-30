@@ -44,9 +44,13 @@ function chalon_enqueue(){
     if(is_front_page()){
         //topページで使うCSSを読み込む（slick、slick-theme、top.css）
         wp_enqueue_style(
-        'google-fonts',
-        'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap'
-    );
+            'slick-theme',
+            'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.min.css'
+        );
+        wp_enqueue_style(
+            'slick',
+            'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css'
+        );
     }
 
 
