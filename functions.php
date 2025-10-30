@@ -113,10 +113,5 @@ add_action('upload_mimes','chalon_mimes');
 
 function chalon_mimes($file_types){
     $file_types['svg'] = 'image/svg+xml';
-
-    echo '<pre>';
-    print_r($file_types);
-    echo '</pre>';
-
-    // return $file_types;
+    return $file_types;
 }
