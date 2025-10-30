@@ -116,8 +116,8 @@
                 </li>
                 <li>
                     <picture>
-                        <source srcset="img/menu_03.webp" type="image/webp">
-                        <img src="img/menu_03.jpg" alt="menu_03">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_03.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/menu_03.jpg" alt="menu_03">
                     </picture>
                 </li>
                 <li>
@@ -272,8 +272,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <!-- slickのJavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="js/common.js"></script>
-    <script src="js/top.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/top.js"></script>
 </body>
 
 </html>
