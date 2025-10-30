@@ -1,4 +1,4 @@
-jquery('.slider').slick({
+jQuery('.slider').slick({
     arrows: false,
     autoplay: true,
     centerMode: true,
