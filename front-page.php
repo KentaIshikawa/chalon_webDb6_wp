@@ -96,22 +96,22 @@
     <section class="menu">
         <div class="menu_inner">
             <h2>
-                <img class="sp contents_title" src="img/spacer.png" alt="menu" style="height: 67px;"
-                    data-src="img/title_menu_sp.svg">
-                <img class="pc contents_title" src="img/spacer.png" alt="menu" style="height:134px"
-                    data-src="img/title_menu_pc.svg">
+                <img class="sp contents_title" src="<?php echo get_template_directory_uri(); ?>/img/spacer.png" alt="menu" style="height: 67px;"
+                    data-src="<?php echo get_template_directory_uri(); ?>/img/title_menu_sp.svg">
+                <img class="pc contents_title" src="<?php echo get_template_directory_uri(); ?>/img/spacer.png" alt="menu" style="height:134px"
+                    data-src="<?php echo get_template_directory_uri(); ?>/img/title_menu_pc.svg">
             </h2>
             <ul class="slider">
                 <li>
                     <picture>
-                        <source srcset="img/menu_01.webp" type="image/webp">
-                        <img src="img/menu_01.jpg" alt="menu_01">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_01.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/menu_01.jpg" alt="menu_01">
                     </picture>
                 </li>
                 <li>
                     <picture>
-                        <source srcset="img/menu_02.webp" type="image/webp">
-                        <img src="img/menu_02.jpg" alt="menu_02">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_02.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/menu_02.jpg" alt="menu_02">
                     </picture>
                 </li>
                 <li>
