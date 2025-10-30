@@ -1,12 +1,5 @@
 <?php get_header(); ?>
-    <div class="under_title">
-        <div class="under_title_inner center">
-            <h2>
-                <img class="sp contents_title" src="<?php echo get_template_directory_uri(); ?>/img/title_about_sp.svg" alt="アバウト">
-                <img class="pc contents_title" src="<?php echo get_template_directory_uri(); ?>/img/title_about_pc.svg" alt="アバウト">
-            </h2>
-        </div>
-    </div>
+<?php get_template_part('template/under'); ?>
     <section class="about">
         <h3 class="page_title">当店のこだわり</h3>
         <section class="about_sozai">
