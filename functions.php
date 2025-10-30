@@ -109,3 +109,10 @@ function chalon_enqueue(){
 }///////CSS・JSの読み込みここまで//////////////
 
 //SVGファイルをアップロード出来るようにする
+add_action('upload_mimes','chalon_mimes');
+
+function chalon_mimes($file_types){
+    echo '<pre>';
+    print_r($file_types);
+    echo '</pre>';
+}
