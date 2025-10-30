@@ -34,5 +34,13 @@ function chalon_enqueue(){
         true
     );
 
+        wp_enqueue_script(
+        'chalon-jquery',
+        'https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js',
+        [],
+        '',
+        true
+    );
+
 
 }///////CSS・JSの読み込みここまで//////////////
