@@ -58,21 +58,4 @@
         </section>
     </section>
 
-    <footer>
-        <div class="footer_inner">
-            <img src="../img/logo_white.svg" alt="洋菓子店CHALON">
-            <address>
-                TEL:03-1234-5678<br>
-                〒132-4567 東京都新宿区愛住町 22 第三山田ビル1F
-            </address>
-            <small>&copy;CHALON</small>
-        </div>
-    </footer>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script src="../js/common.js"></script>
-    <script src="../js/about.js"></script>
-</body>
-
-</html>
+<?php get_footer(); ?>
