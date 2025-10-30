@@ -14,7 +14,7 @@
     <header>
         <div class="header_inner">
             <h1 class="logo">
-                <a href="./">
+                <a href="<?php echo home_url(); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="洋菓子店CHALON">
                 </a>
             </h1>
