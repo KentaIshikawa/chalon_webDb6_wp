@@ -59,12 +59,12 @@ function chalon_enqueue(){
         );
         //topページで使うjsを読み込む（slick、top.js）
         wp_enqueue_script(
-        'chalon-jquery',
-        'https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js',
-        [],
-        '',
-        true
-    );
+            'slick',
+            'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js',
+            [],
+            '',
+            true
+        );
 
     }
 
