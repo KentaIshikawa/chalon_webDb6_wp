@@ -33,12 +33,11 @@ function chalon_enqueue(){
         '',
         true
     );
-
     wp_enqueue_script(
-        'chalon-jquery',
-        'https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js',
+        'chalon-common',
+        get_template_directory_uri().'/js/common.js',
         [],
-        '',
+        filemtime(get_theme_file_path('/js/common.js')),
         true
     );
 
