@@ -25,4 +25,6 @@ function chalon_enqueue(){
         filemtime(get_theme_file_path('/css/common/common.css'))
     );
 
+    //全ページ共通のjsの読み込み（jquery、common.js）
+
 }///////CSS・JSの読み込みここまで//////////////
