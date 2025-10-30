@@ -51,6 +51,14 @@ function chalon_enqueue(){
             'slick',
             'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css'
         );
+        wp_enqueue_style(
+            'chalon-top',
+            get_template_directory_uri().'/css/page/top.css',
+            [],
+            filemtime(get_theme_file_path('/css/page/top.css'))
+        );
+
+
     }
 
 
