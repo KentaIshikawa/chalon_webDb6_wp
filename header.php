@@ -24,7 +24,7 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="<?php echo home_url('/?page_id=11'); ?>">当店について</a></li>
+                    <li><a href="<?php echo home_url('/about/'); ?>">当店について</a></li>
                     <li><a href="menu/">メニュー</a></li>
                     <li><a href="lesson/">お菓子教室</a></li>
                     <li><a href="access/">アクセス</a></li>
