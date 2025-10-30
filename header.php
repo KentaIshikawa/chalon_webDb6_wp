@@ -1,5 +1,3 @@
-<?php echo get_theme_file_path(); ?>
-
 <!DOCTYPE html>
 <html lang="ja">
 
