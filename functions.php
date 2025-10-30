@@ -14,7 +14,9 @@ function chalon_enqueue(){
     );
     wp_enqueue_style(
         'chalon-reset',
-        get_template_directory_uri().'/css/common/reset.css'
+        get_template_directory_uri().'/css/common/reset.css',
+        [],
+        1
     );
 
 }///////CSS・JSの読み込みここまで//////////////
