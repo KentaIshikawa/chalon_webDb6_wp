@@ -30,7 +30,7 @@ function chalon_enqueue(){
         'jquery',
         '',
         [],
-        ''
+        '',
         true
     );
 
