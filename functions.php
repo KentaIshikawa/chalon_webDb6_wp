@@ -72,7 +72,13 @@ function chalon_enqueue(){
             filemtime(get_theme_file_path('/js/top.js')),
             true
         );
-
+    }else{
+        wp_enqueue_style(
+            'chalon-top',
+            get_template_directory_uri().'/css/page/top.css',
+            [],
+            filemtime(get_theme_file_path('/css/page/top.css'))
+        );
     }
 
 
