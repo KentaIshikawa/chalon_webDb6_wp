@@ -65,6 +65,13 @@ function chalon_enqueue(){
             '',
             true
         );
+        wp_enqueue_script(
+            'chalon-top',
+            get_template_directory_uri().'/js/top.js',
+            [],
+            filemtime(get_theme_file_path('/js/top.js')),
+            true
+        );
 
     }
 
