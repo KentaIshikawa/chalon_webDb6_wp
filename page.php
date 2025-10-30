@@ -23,12 +23,12 @@
                 </div>
                 <div class="about_sozai_img img_wrap">
                     <picture class="to_right">
-                        <source srcset="../img/about_01.webp" type="image/webp">
-                        <img src="../img/about_01.jpg" alt="卵の写真">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/about_01.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/about_01.jpg" alt="卵の写真">
                     </picture>
                     <picture class="to_left">
-                        <source srcset="../img/about_02.webp" type="image/webp">
-                        <img src="../img/about_02.jpg" alt="小麦の写真">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/about_02.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/about_02.jpg" alt="小麦の写真">
                     </picture>
                 </div>
             </div>
@@ -46,12 +46,12 @@
                 </div>
                 <div class="about_kuukan_img img_wrap">
                     <picture class="to_right">
-                        <source srcset="../img/about_03.webp" type="image/webp">
-                        <img src="../img/about_03.jpg" alt="店内の写真">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/about_03.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/about_03.jpg" alt="店内の写真">
                     </picture>
                     <picture class="to_left">
-                        <source srcset="../img/about_04.webp" type="image/webp">
-                        <img src="../img/about_04.jpg" alt="テーブルの写真">
+                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/about_04.webp" type="image/webp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/about_04.jpg" alt="テーブルの写真">
                     </picture>
                 </div>
             </div>
