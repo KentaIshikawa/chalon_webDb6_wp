@@ -1,4 +1,4 @@
-
+<?php get_header(); ?>
 
     <div class="key_title">
         <div class="key_title_inner">
