@@ -88,6 +88,13 @@ function chalon_enqueue(){
             [],
             filemtime(get_theme_file_path('/css/page/about.css'))
         );
+        wp_enqueue_script(
+            'chalon-about',
+            get_template_directory_uri().'/js/about.js',
+            [],
+            filemtime(get_theme_file_path('/js/about.js')),
+            true
+        );
     }
 
 }///////CSS・JSの読み込みここまで//////////////
