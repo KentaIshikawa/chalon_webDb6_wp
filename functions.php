@@ -12,9 +12,9 @@ function chalon_enqueue(){
         'google-icon',
         'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0'
     );
-        wp_enqueue_style(
-        'google-icon',
-        'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0'
+    wp_enqueue_style(
+        'chalon-reset',
+        get_template_directory_uri().'/css/common/reset.css'
     );
 
 }///////CSS・JSの読み込みここまで//////////////
