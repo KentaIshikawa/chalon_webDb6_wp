@@ -116,5 +116,5 @@ function chalon_mimes($file_types){
     print_r($file_types);
     echo '</pre>';
 
-    return $file_types;
+    // return $file_types;
 }
