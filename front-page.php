@@ -63,8 +63,8 @@
                     $args = [];
                     $menu_query = new WP_Query($args);
                 ?>
-                <?php if(have_posts()): ?>
-                    <?php while(have_posts()):the_post(); ?>
+                <?php if($menu_query->have_posts()): ?>
+                    <?php while($menu_query->have_posts()):$menu_query->the_post(); ?>
                         <li>
                             <picture>
                                 <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_01.webp" type="image/webp">
