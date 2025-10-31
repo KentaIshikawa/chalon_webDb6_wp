@@ -115,6 +115,16 @@ function chalon_enqueue(){
         );
     }
 
+    //お報せ
+    if(is_singular('post')){
+        wp_enqueue_style(
+            'chalon-news',
+            get_template_directory_uri().'/css/page/news.css',
+            [],
+            filemtime(get_theme_file_path('/css/page/news.css'))
+        );
+    }
+
 }///////CSS・JSの読み込みここまで//////////////
 
 //SVGファイルをアップロード出来るようにする
