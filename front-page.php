@@ -59,6 +59,10 @@
                     data-src="<?php echo get_template_directory_uri(); ?>/img/title_menu_pc.svg">
             </h2>
             <ul class="slider">
+                <?php
+                    $args = [];
+                    $menu_query = new WP_Query($args);
+                ?>
                 <li>
                     <picture>
                         <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_01.webp" type="image/webp">
