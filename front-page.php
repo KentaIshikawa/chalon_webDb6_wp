@@ -174,7 +174,7 @@
         </div>
     </section>
     <div id="bg_placeholder" class="bg_placeholder"></div>
-    <!-- <section class="news">
+    <section class="news">
         <div class="news_inner">
             <h2>
                 <img class="sp contents_title" src="<?php echo get_template_directory_uri(); ?>/img/spacer.png" style="height: 67px;" alt="news"
@@ -203,7 +203,7 @@
                 <dd><a href="#">お知らせタイトルお知らせタイトルお知らせタイトル</a></dd>
             </dl>
         </div>
-    </section> -->
+    </section>
 
     <div class="mv">
         <div class="mv_inner">
