@@ -182,12 +182,15 @@
                 <img class="pc contents_title" src="<?php echo get_template_directory_uri(); ?>/img/spacer.png" alt="news" style="height: 135px;"
                     data-src="<?php echo get_template_directory_uri(); ?>/img/title_news_pc.svg">
             </h2>
-            
-            <dl>
-                <dt><time datetime="2023-08-01">2023年08月01日</time></dt>
-                <dd><a href="#">お知らせタイトルお知らせタイトルお知らせタイトル</a></dd>
-            </dl>
-            
+
+            <?php if(have_posts()): ?>
+                <?php while(have_posts()):the_post(); ?>
+                    <dl>
+                        <dt><time datetime="2023-08-01">2023年08月01日</time></dt>
+                        <dd><a href="#">お知らせタイトルお知らせタイトルお知らせタイトル</a></dd>
+                    </dl>
+                <?php endwhile; ?>
+            <?php endif; ?>
         </div>
     </section>
 
