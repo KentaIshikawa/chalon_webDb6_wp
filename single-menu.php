@@ -8,8 +8,7 @@
                 <h3 class="page_title"><?php the_title(); ?></h3>
                 <div class="menu_single_box">
                     <picture>
-                        <source srcset="../../img/menu_01.webp" type="image/webp">
-                        <img src="../../img/menu_01.jpg" alt="ショートケーキ">
+                        <?php the_post_thumbnail(); ?>
                     </picture>
                     <div>
                         <dl>
