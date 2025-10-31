@@ -62,7 +62,8 @@
                 <?php
                     $args = [
                         'post_type'=>'menu',
-                        'posts_per_page'=>-1
+                        'posts_per_page'=>-1,
+                        'orderby'=>'rand'
                     ];
                     $menu_query = new WP_Query($args);
                 ?>
