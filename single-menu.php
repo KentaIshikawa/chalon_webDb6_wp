@@ -28,7 +28,7 @@
                             <dd>
                                 <?php
                                     $alg_arr = SCF::get('alg');
-                                    echo empty($alg_arr);
+                                    echo empty($alg_arr)?'-':implode('、',$alg_arr);
                                 ?>
                             </dd>
                         </dl>
