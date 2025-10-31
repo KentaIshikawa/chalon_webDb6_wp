@@ -80,7 +80,7 @@ pc 960px～
 }
 
 .trial .trial_inner .trial_form input[type="button"] {
-    width: 80px;
+    width: 100px;
 }
 
 @media screen and (min-width:960px) {
