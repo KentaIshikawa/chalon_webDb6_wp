@@ -7,13 +7,7 @@
             <div class="menu_single_inner">
                 <h3 class="page_title"><?php the_title(); ?></h3>
                 <div class="menu_single_box">
-                    <picture>
-                        <?php if(has_post_thumbnail()): ?>
-                            <?php the_post_thumbnail(); ?>
-                        <?php else: ?>
-                            <img src="https://placehold.jp/f77237/ffffff/1200x900.jpg?text=No%20Image" alt="">
-                        <?php endif; ?>
-                    </picture>
+                    
                     <div>
                         <dl>
                             <dt>価格</dt>
