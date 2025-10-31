@@ -20,6 +20,10 @@
                     $file = 'news';
                     $alt = 'お知らせ';
                 }
+                if(is_singular('menu')){
+                    $file = 'menu';
+                    $alt = 'メニュー';
+                }
             ?>
             <img class="sp contents_title" src="<?php echo get_template_directory_uri(); ?>/img/title_<?php echo $file; ?>_sp.svg" alt="<?php echo $alt; ?>">
             <img class="pc contents_title" src="<?php echo get_template_directory_uri(); ?>/img/title_<?php echo $file; ?>_pc.svg" alt="<?php echo $alt; ?>">
