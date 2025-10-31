@@ -7,7 +7,7 @@
             <div class="menu_single_inner">
                 <h3 class="page_title"><?php the_title(); ?></h3>
                 <div class="menu_single_box">
-                    
+                    <?php get_template_part('template/thumbnail'); ?>
                     <div>
                         <dl>
                             <dt>価格</dt>
