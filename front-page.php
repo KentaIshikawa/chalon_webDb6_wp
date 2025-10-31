@@ -170,7 +170,7 @@
                 <source srcset="<?php echo get_template_directory_uri(); ?>/img/top_lesson.webp" type="image/webp">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/top_lesson.jpg" alt="お菓子教室イメージ画像">
             </picture>
-            <a href="<?php echo home_url('/lesson/') ?>" class="btn">お菓子教室についてもっと見る</a>
+            <a href="<?php echo home_url('/lesson/'); ?>" class="btn">お菓子教室についてもっと見る</a>
         </div>
     </section>
     <div id="bg_placeholder" class="bg_placeholder"></div>
