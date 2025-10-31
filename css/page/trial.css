@@ -54,7 +54,7 @@ pc 960px～
     transition: 0.4s;
 }
 
-.trial .trial_inner .trial_form input[type="radio"]+label {
+.trial .trial_inner .trial_form label:has(input[type="radio"]) {
     display: inline-block;
     border: 1px solid var(--main-color);
     padding: var(--gutter-base);
