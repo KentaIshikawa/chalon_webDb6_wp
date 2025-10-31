@@ -65,14 +65,12 @@
                 ?>
                 <?php if(have_posts()): ?>
                     <?php while(have_posts()):the_post(); ?>
-                        
-
-                <li>
-                    <picture>
-                        <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_01.webp" type="image/webp">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/menu_01.jpg" alt="menu_01">
-                    </picture>
-                </li>
+                        <li>
+                            <picture>
+                                <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_01.webp" type="image/webp">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/menu_01.jpg" alt="menu_01">
+                            </picture>
+                        </li>
                     <?php endwhile; ?>
                 <?php endif; ?>
             </ul>
