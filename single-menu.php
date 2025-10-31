@@ -28,6 +28,9 @@
                             <dd>
                                 <?php
                                     $alg_arr = SCF::get('alg');
+                                    echo '<pre>';
+                                    print_r($alg_arr);
+                                    echo '</pre>';
                                 ?>
                             </dd>
                         </dl>
