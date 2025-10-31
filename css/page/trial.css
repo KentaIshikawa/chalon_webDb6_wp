@@ -62,7 +62,7 @@ pc 960px～
     color: var(--main-color);
 }
 
-.trial .trial_inner .trial_form input[type="radio"]:checked+label {
+.trial .trial_inner .trial_form label:has(input[type="radio"]:checked) {
     color: #fff;
     background-color: var(--main-color);
 }
