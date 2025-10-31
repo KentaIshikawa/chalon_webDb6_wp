@@ -4,7 +4,7 @@
     <?php while(have_posts()):the_post(); ?>
         <section class="news">
             <h3 class="page_title"><?php the_title(); ?></h3>
-            <time class="news_time" datetime="2023-08-07">2023-08-07</time>
+            <time class="news_time" datetime="2023-08-07"><?php the_time('Y年m月d日'); ?></time>
             <div class="news_inner">
                 <div class="news_contents">
 
