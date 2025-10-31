@@ -186,8 +186,8 @@
             <?php if(have_posts()): ?>
                 <?php while(have_posts()):the_post(); ?>
                     <dl>
-                        <dt><time datetime="2023-08-01">2023年08月01日</time></dt>
-                        <dd><a href="#">お知らせタイトルお知らせタイトルお知らせタイトル</a></dd>
+                        <dt><time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y年m月d日'); ?></time></dt>
+                        <dd><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></dd>
                     </dl>
                 <?php endwhile; ?>
             <?php endif; ?>
