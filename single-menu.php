@@ -17,7 +17,7 @@
                     <div>
                         <dl>
                             <dt>価格</dt>
-                            <dd>600円</dd>
+                            <dd><?php echo SCF::get('price'); ?>円</dd>
                         </dl>
                         <dl>
                             <dt>カロリー</dt>
