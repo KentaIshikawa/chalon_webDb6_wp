@@ -125,6 +125,16 @@ function chalon_enqueue(){
         );
     }
 
+    //各メニュー
+    if(is_singular('menu')){
+        wp_enqueue_style(
+            'chalon-menu-single',
+            get_template_directory_uri().'/css/page/menu_single.css',
+            [],
+            filemtime(get_theme_file_path('/css/page/menu_single.css'))
+        );
+    }
+
 }///////CSS・JSの読み込みここまで//////////////
 
 //SVGファイルをアップロード出来るようにする
