@@ -34,7 +34,7 @@
                         </dl>
                     </div>
                 </div>
-                <a href="../" class="btn">メニュー一覧へ</a>
+                <a href="<?php echo home_url('/menu/'); ?>" class="btn">メニュー一覧へ</a>
             </div>
         </section>
     <?php endwhile; ?>
