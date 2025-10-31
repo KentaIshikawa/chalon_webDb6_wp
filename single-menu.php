@@ -1,5 +1,10 @@
 <?php get_header(); ?>
 <?php get_template_part('template/under'); ?>
+
+<?php if(have_posts()): ?>
+    <?php while(have_posts()):the_post(); ?>
+        
+
     <section class="menu_single">
         <div class="menu_single_inner">
             <h3 class="page_title">ショートケーキ</h3>
@@ -26,4 +31,7 @@
             <a href="../" class="btn">メニュー一覧へ</a>
         </div>
     </section>
+    <?php endwhile; ?>
+<?php endif; ?>
+
 <?php get_footer(); ?>
