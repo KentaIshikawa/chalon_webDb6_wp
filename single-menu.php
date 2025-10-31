@@ -8,7 +8,11 @@
                 <h3 class="page_title"><?php the_title(); ?></h3>
                 <div class="menu_single_box">
                     <picture>
-                        <?php the_post_thumbnail(); ?>
+                        <?php if(): ?>
+                            <?php the_post_thumbnail(); ?>
+                        <?php else: ?>
+
+                        <?php endif; ?>
                     </picture>
                     <div>
                         <dl>
