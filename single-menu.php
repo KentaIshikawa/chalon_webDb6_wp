@@ -8,7 +8,7 @@
                 <h3 class="page_title"><?php the_title(); ?></h3>
                 <div class="menu_single_box">
                     <picture>
-                        <?php if(): ?>
+                        <?php if(has_post_thumbnail()): ?>
                             <?php the_post_thumbnail(); ?>
                         <?php else: ?>
 
