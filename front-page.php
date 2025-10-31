@@ -60,7 +60,9 @@
             </h2>
             <ul class="slider">
                 <?php
-                    $args = [];
+                    $args = [
+                        'post_type'=>'menu'
+                    ];
                     $menu_query = new WP_Query($args);
                 ?>
                 <?php if($menu_query->have_posts()): ?>
