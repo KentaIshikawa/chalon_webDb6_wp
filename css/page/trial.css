@@ -71,8 +71,12 @@ pc 960px～
     display: none;
 }
 
-.trial .trial_form input[type="submit"] {
+.trial .trial_inner .trial_form input[type="submit"] {
     background-color: transparent;
+}
+
+.trial .trial_inner .trial_form input[type="submit"]:hover {
+    background-color: var(--main-color);
 }
 
 @media screen and (min-width:960px) {
