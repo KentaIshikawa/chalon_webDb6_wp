@@ -71,6 +71,10 @@ pc 960px～
     display: none;
 }
 
+.trial .trial_inner .trial_form input[type="submit"] {
+    background-color: transparent;
+}
+
 @media screen and (min-width:960px) {
     .trial .trial_inner .trial_form button:hover {
         background-color: var(--main-color);
