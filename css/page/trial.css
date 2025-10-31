@@ -79,6 +79,10 @@ pc 960px～
     background-color: var(--main-color);
 }
 
+.trial .trial_inner .trial_form input[type="button"] {
+    width: 80px;
+}
+
 @media screen and (min-width:960px) {
     .trial .trial_inner .trial_form button:hover {
         background-color: var(--main-color);
