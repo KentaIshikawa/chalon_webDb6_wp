@@ -62,7 +62,7 @@
                 <?php
                     $args = [
                         'post_type'=>'menu',
-                        'posts_per_page'=>3
+                        'posts_per_page'=>-1
                     ];
                     $menu_query = new WP_Query($args);
                 ?>
