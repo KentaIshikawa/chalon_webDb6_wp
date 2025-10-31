@@ -25,7 +25,11 @@
                         </dl>
                         <dl>
                             <dt>アレルギー</dt>
-                            <dd>卵、乳、小麦</dd>
+                            <dd>
+                                <?php
+                                    $alg_arr = SCF::get('alg');
+                                ?>
+                            </dd>
                         </dl>
                     </div>
                 </div>
