@@ -68,10 +68,7 @@
                 <?php if($menu_query->have_posts()): ?>
                     <?php while($menu_query->have_posts()):$menu_query->the_post(); ?>
                         <li>
-                            <picture>
-                                <source srcset="<?php echo get_template_directory_uri(); ?>/img/menu_01.webp" type="image/webp">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/menu_01.jpg" alt="menu_01">
-                            </picture>
+                            <?php get_template_part('template/thumbnail'); ?>
                         </li>
                     <?php endwhile; ?>
                 <?php endif; ?>
