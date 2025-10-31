@@ -81,6 +81,8 @@ pc 960px～
 
 .trial .trial_inner .trial_form input[type="button"] {
     width: 100px;
+    border: 1px solid #333;
+    background-color: transparent;
 }
 
 @media screen and (min-width:960px) {
