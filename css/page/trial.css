@@ -85,6 +85,10 @@ pc 960px～
     background-color: transparent;
 }
 
+.trial .trial_inner .trial_form input[type="button"]:hover {
+    background-color: #333;
+}
+
 @media screen and (min-width:960px) {
     .trial .trial_inner .trial_form button:hover {
         background-color: var(--main-color);
