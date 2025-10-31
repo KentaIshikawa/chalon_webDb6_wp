@@ -150,7 +150,7 @@
                 当店自慢のケーキや焼き菓子を、<br>
                 どうぞ召し上がってください。
             </p>
-            <a href="menu/" class="btn">メニュー一覧</a>
+            <a href="<?php echo home_url('/menu/'); ?>" class="btn">メニュー一覧</a>
         </div>
     </section>
     <section class="lesson">
