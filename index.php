@@ -9,7 +9,7 @@
                 <div class="news_contents">
                     <?php the_content(); ?>
                 </div>
-                <a href="../" class="btn">TOPへ戻る</a>
+                <a href="<?php echo home_url(); ?>" class="btn">TOPへ戻る</a>
             </div>
         </section>
     <?php endwhile; ?>
