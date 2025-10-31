@@ -7,7 +7,7 @@
             <time class="news_time" datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y年m月d日'); ?></time>
             <div class="news_inner">
                 <div class="news_contents">
-
+                    <?php the_content(); ?>
                 </div>
                 <a href="../" class="btn">TOPへ戻る</a>
             </div>
