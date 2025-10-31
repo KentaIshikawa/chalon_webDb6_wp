@@ -21,7 +21,7 @@
                         </dl>
                         <dl>
                             <dt>カロリー</dt>
-                            <dd>343kcal</dd>
+                            <dd><?php echo SCF::get('cal'); ?>kcal</dd>
                         </dl>
                         <dl>
                             <dt>アレルギー</dt>
