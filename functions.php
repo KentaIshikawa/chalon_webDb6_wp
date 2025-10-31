@@ -105,6 +105,15 @@ function chalon_enqueue(){
             filemtime(get_theme_file_path('/css/page/access.css'))
         );
     }
+    //お申し込み、確認、送信
+    if(is_page(['trial','check','thanks'])){
+        wp_enqueue_style(
+            'chalon-trial',
+            get_template_directory_uri().'/css/page/trial.css',
+            [],
+            filemtime(get_theme_file_path('/css/page/trial.css'))
+        );
+    }
 
 }///////CSS・JSの読み込みここまで//////////////
 
