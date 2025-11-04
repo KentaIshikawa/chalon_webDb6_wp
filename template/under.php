@@ -28,6 +28,10 @@
                     $file = 'lesson';
                     $alt = 'お菓子教室';
                 }
+                if(is_singular('voice')){
+                    $file = 'voice';
+                    $alt = '参加者の声';
+                }
             ?>
             <img class="sp contents_title" src="<?php echo get_template_directory_uri(); ?>/img/title_<?php echo $file; ?>_sp.svg" alt="<?php echo $alt; ?>">
             <img class="pc contents_title" src="<?php echo get_template_directory_uri(); ?>/img/title_<?php echo $file; ?>_pc.svg" alt="<?php echo $alt; ?>">
