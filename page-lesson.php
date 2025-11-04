@@ -49,7 +49,7 @@
         <section class="lesson_summary">
             <div class="lesson_summary_inner center">
                 <h4 class="section_title">お菓子教室の概要</h4>
-                <img class="lesson_summary_img" src="../img/lesson_price.svg" alt="料金表">
+                <img class="lesson_summary_img" src="<?php echo get_template_directory_uri(); ?>/img/lesson_price.svg" alt="料金表">
             </div>
             <div class="lesson_summary_text">
                 <ul>
