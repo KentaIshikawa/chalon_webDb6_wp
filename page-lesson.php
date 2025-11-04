@@ -100,7 +100,7 @@
                                     <?php endif; ?>
                                 </p>
                                 <p class="lesson_voice_box_text">
-                                   
+                                   <?php echo SCF::get('archive_message'); ?>
                                 </p>
                                 
                                 <a href="voice/"></a>
