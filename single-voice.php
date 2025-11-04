@@ -30,7 +30,7 @@
                                 ?>
                                 <?php
                                     echo '<pre>';
-                                    print_r(SCF::get('children_arr'));
+                                    print_r($children_arr);
                                     echo '</pre>';
                                 ?>
                             </dd>
