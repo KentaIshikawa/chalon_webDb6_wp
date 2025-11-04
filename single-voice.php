@@ -37,7 +37,7 @@
                     </dl>
                     <dl>
                         <dt>お菓子作り経験</dt>
-                        <dd>ほぼ無し</dd>
+                        <dd><?php echo SCF::get('keiken'); ?></dd>
                     </dl>
                 </div>
             </div>
