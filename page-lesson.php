@@ -13,24 +13,24 @@
                 <div class="lesson_feature_box_wrap">
                     <div class="lesson_feature_box">
                         <picture>
-                            <source srcset="../img/lesson_01.webp" type="image/webp">
-                            <img src="../img/lesson_01.jpg" alt="子供の写真">
+                            <source srcset="<?php echo get_template_directory_uri(); ?>/img/lesson_01.webp" type="image/webp">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/lesson_01.jpg" alt="子供の写真">
                         </picture>
                         <h5>ご家族で参加OK!</h5>
                         <p>CHALONのお菓子教室なら、お子さんとご一緒にお菓子作りを楽しめます。</p>
                     </div>
                     <div class="lesson_feature_box">
                         <picture>
-                            <source srcset="../img/lesson_02.webp" type="image/webp">
-                            <img src="../img/lesson_02.jpg" alt="大人二人の写真">
+                            <source srcset="<?php echo get_template_directory_uri(); ?>/img/lesson_02.webp" type="image/webp">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/lesson_02.jpg" alt="大人二人の写真">
                         </picture>
                         <h5>最大3組までの<span class="break">少人数</span></h5>
                         <p>各時間、最大3組までなので、難しいことわからないことはすぐに先生に聞けます。</p>
                     </div>
                     <div class="lesson_feature_box">
                         <picture>
-                            <source srcset="../img/lesson_03.webp" type="image/webp">
-                            <img src="../img/lesson_03.jpg" alt="まな板の写真">
+                            <source srcset="<?php echo get_template_directory_uri(); ?>/img/lesson_03.webp" type="image/webp">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/lesson_03.jpg" alt="まな板の写真">
                         </picture>
                         <h5>手ぶらでOK！</h5>
                         <p>使う道具は全てプロ用の便利な物ばかりです。CHALONで用意します。</p>
