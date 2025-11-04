@@ -91,7 +91,7 @@
                                     <img src="<?php echo $img_url; ?>" alt="<?php echo $alt; ?>">
                                 </picture>
                                 <p class="lesson_voice_box_title">
-                                    
+                                    <?php get_template_part('template/voice','title'); ?>
                                 </p>
                                 <p class="lesson_voice_box_text">
                                    <?php echo SCF::get('archive_message'); ?>
