@@ -13,7 +13,10 @@
                     <?php
                     //ポストタイプがmenuで、
                     //カスタムタクソノミー種類のタームが、ケーキの物
-                    $cake_args = [];
+                    $cake_args = [
+                        'post_type'=>'menu',
+                        'posts_per_page'=>-1
+                    ];
 
                     $cake_query = new WP_Query($cake_args);
                     ?>
