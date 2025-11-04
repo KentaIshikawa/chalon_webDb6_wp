@@ -85,7 +85,7 @@
                                 <picture>
                                     <?php
                                     $img = SCF::get('archive_img');
-                                    echo $img;
+                                    echo wp_get_attachment_url($img);
                                     ?>
                                 </picture>
                                 <p class="lesson_voice_box_title">20代女性 お子さん2人と参加</p>
