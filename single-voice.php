@@ -6,7 +6,7 @@
 
     <section class="voice">
         <div class="voice_inner">
-            <h3 class="page_title">20代女性<br>お子さん2人と参加</h3>
+            <h3 class="page_title"><?php get_template_part('template/voice','title'); ?></h3>
             <div class="voice_box">
                 <picture>
                     <source srcset="../../img/voice_01.webp" type="image/webp">
