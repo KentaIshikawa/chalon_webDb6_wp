@@ -26,7 +26,7 @@
                                 <?php
                                     $children = SCF::get('children');
                                     $children_arr = [];
-                                    $children_arr[]=$children[0]['child_age']
+                                    $children_arr[]=$children[0]['child_age'].$children[0]['child_seibetsu'];
                                 ?>
                                 <?php
                                     echo '<pre>';
