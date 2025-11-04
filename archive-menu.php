@@ -44,46 +44,28 @@
                     </p>
                 </div>
                 <div class="menu_other_img">
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_10.webp" type="image/webp">
-                            <img src="../img/menu_10.jpg" alt="バタークッキー">
-                        </picture>
-                        <figcaption>バタークッキー</figcaption>
-                        <a href="#"></a>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_11.webp" type="image/webp">
-                            <img src="../img/menu_11.jpg" alt="チョコチップクッキー">
-                        </picture>
-                        <figcaption>チョコチップクッキー</figcaption>
-                        <a href="#"></a>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_12.webp" type="image/webp">
-                            <img src="../img/menu_12.jpg" alt="クッキーセット">
-                        </picture>
-                        <figcaption>クッキーセット</figcaption>
-                        <a href="#"></a>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_13.webp" type="image/webp">
-                            <img src="../img/menu_13.jpg" alt="フルーツのゼリー">
-                        </picture>
-                        <figcaption>フルーツのゼリー</figcaption>
-                        <a href="#"></a>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_14.webp" type="image/webp">
-                            <img src="../img/menu_14.jpg" alt="マカロン">
-                        </picture>
-                        <figcaption>マカロン</figcaption>
-                        <a href="#"></a>
-                    </figure>
+                    <?php
+                    //ポストタイプがmenuで、
+                    //カスタムタクソノミー種類のタームが、ケーキの物
+                    $cake_args = [
+                        'post_type'=>'menu',
+                        'posts_per_page'=>-1,
+                        'tax_query'=>[
+                            [
+                                'taxonomy'=>'kind',
+                                'field'=>'slug',
+                                'terms'=>'cake'
+                            ]
+                        ]
+                    ];
+
+                    $cake_query = new WP_Query($cake_args);
+                    ?>
+                    <?php if($cake_query->have_posts()): ?>
+                        <?php while($cake_query->have_posts()):$cake_query->the_post(); ?>
+                            <?php get_template_part('template/menu'); ?>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
                 </div>
             </div>
         </section>
