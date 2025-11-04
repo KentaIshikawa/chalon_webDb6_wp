@@ -17,7 +17,13 @@
                     <?php if(SCF::get('child_sanka') === '有'): ?>
                         <dl>
                             <dt>お子さん</dt>
-                            <dd>6歳女の子と5歳男の子</dd>
+                            <dd>
+                                <?php
+                                echo '<pre>';
+                                print_r(SCF::get('children'));
+                                echo '</pre>';
+                                ?>
+                            </dd>
                         </dl>
                     <?php endif; ?>
                     <dl>
