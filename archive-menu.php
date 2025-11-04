@@ -24,7 +24,7 @@
                                     <source srcset="../img/menu_01.webp" type="image/webp">
                                     <img src="../img/menu_01.jpg" alt="ショートケーキ">
                                 </picture>
-                                <figcaption>ショートケーキ</figcaption>
+                                <figcaption><?php the_title(); ?></figcaption>
                                 <a href="#"></a>
                             </figure>
                         <?php endwhile; ?>
