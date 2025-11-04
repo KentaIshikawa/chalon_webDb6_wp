@@ -12,7 +12,7 @@
                 <div>
                     <dl>
                         <dt>お名前</dt>
-                        <dd><?php echo SCF::get('family_name'); ?></dd>
+                        <dd><?php echo SCF::get('family_name'); ?> <?php echo SCF::get('first_name'); ?></dd>
                     </dl>
                     <dl>
                         <dt>お子さん</dt>
