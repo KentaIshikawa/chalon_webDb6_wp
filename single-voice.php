@@ -29,9 +29,9 @@
                                     $children_arr[]=$children[0]['child_age']
                                 ?>
                                 <?php
-                                echo '<pre>';
-                                print_r(SCF::get('children_arr'));
-                                echo '</pre>';
+                                    echo '<pre>';
+                                    print_r(SCF::get('children_arr'));
+                                    echo '</pre>';
                                 ?>
                             </dd>
                         </dl>
