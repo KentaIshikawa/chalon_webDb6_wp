@@ -83,8 +83,9 @@
                         <?php while($voice_query->have_posts()):$voice_query->the_post(); ?>
                             <div class="lesson_voice_box">
                                 <picture>
-                                    <source srcset="<?php echo get_template_directory_uri(); ?>/img/lesson_voice01.webp" type="image/webp">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/lesson_voice01.jpg" alt="参加者の声">
+                                    <?php
+                                    $img = SCF::get('archive_img');
+                                    ?>
                                 </picture>
                                 <p class="lesson_voice_box_title">20代女性 お子さん2人と参加</p>
                                 <p class="lesson_voice_box_text">
