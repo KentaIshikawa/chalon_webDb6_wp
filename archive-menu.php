@@ -29,7 +29,7 @@
                     ?>
                     <?php if($cake_query->have_posts()): ?>
                         <?php while($cake_query->have_posts()):$cake_query->the_post(); ?>
-                            
+                            <?php get_template_part('template/menu'); ?>
                         <?php endwhile; ?>
                     <?php endif; ?>
                 </div>
