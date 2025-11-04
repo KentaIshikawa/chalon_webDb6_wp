@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 <?php get_template_part('template/under'); ?>
+<?php if(have_posts()): ?>
+    <?php while(have_posts()):the_post(); ?>
+        
+
     <section class="voice">
         <div class="voice_inner">
             <h3 class="page_title">20代女性<br>お子さん2人と参加</h3>
@@ -150,4 +154,6 @@
             <a href="../trial/" class="btn">無料体験のお申込みはこちら</a>
         </div>
     </section>
+    <?php endwhile; ?>
+<?php endif; ?>
 <?php get_footer(); ?>
