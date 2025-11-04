@@ -12,7 +12,7 @@
                 <div>
                     <dl>
                         <dt>お名前</dt>
-                        <dd>武井 真紀</dd>
+                        <dd><?php echo SCF::get('family_name'); ?></dd>
                     </dl>
                     <dl>
                         <dt>お子さん</dt>
