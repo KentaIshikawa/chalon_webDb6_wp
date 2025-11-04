@@ -89,7 +89,10 @@
                                     ?>
                                     <img src="<?php echo $img_url; ?>" alt="">
                                 </picture>
-                                <p class="lesson_voice_box_title">20代女性 お子さん2人と参加</p>
+                                <p class="lesson_voice_box_title">
+                                    <?php echo SCF::get('age'); ?>女性
+                                    お子さん2人と参加
+                                </p>
                                 <p class="lesson_voice_box_text">
                                     子供二人と、三人で参加しました。一つ一つの工程がとてもわかりやすかったです。<br>
                                     家でも作りやすい内容だったので、オーブンを買って子供と一緒に挑戦しようと思っています。
