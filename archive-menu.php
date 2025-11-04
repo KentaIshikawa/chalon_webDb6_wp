@@ -1,12 +1,5 @@
 <?php get_header(); ?>
-    <div class="under_title">
-        <div class="under_title_inner center">
-            <h2>
-                <img class="sp contents_title" src="../img/title_menu_sp.svg" alt="メニュー">
-                <img class="pc contents_title" src="../img/title_menu_pc.svg" alt="メニュー">
-            </h2>
-        </div>
-    </div>
+<?php get_template_part('template/under'); ?>
     <section class="menu">
         <h3 class="page_title">メニュー一覧</h3>
         <section class="menu_cake">
