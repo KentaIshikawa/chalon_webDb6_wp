@@ -33,7 +33,7 @@
                     <?php endif; ?>
                     <dl>
                         <dt>コース</dt>
-                        <dd>Aコース（月2回）</dd>
+                        <dd><?php echo SCF::get('course'); ?></dd>
                     </dl>
                     <dl>
                         <dt>お菓子作り経験</dt>
