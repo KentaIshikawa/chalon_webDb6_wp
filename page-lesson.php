@@ -103,7 +103,7 @@
                                    <?php echo SCF::get('archive_message'); ?>
                                 </p>
                                 
-                                <a href="voice/"></a>
+                                <a href="<?php the_permalink(); ?>"></a>
                             </div>
                         <?php endwhile; ?>
                     <?php endif; ?>
