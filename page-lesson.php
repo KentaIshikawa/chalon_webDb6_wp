@@ -91,7 +91,9 @@
                                 </picture>
                                 <p class="lesson_voice_box_title">
                                     <?php echo SCF::get('age'); ?><?php echo SCF::get('seibetsu'); ?>
+                                    <?php if(): ?>
                                     お子さん2人と参加
+                                    <?php endif; ?>
                                 </p>
                                 <p class="lesson_voice_box_text">
                                     子供二人と、三人で参加しました。一つ一つの工程がとてもわかりやすかったです。<br>
