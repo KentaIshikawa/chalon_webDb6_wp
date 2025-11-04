@@ -90,7 +90,7 @@
                                     <img src="<?php echo $img_url; ?>" alt="">
                                 </picture>
                                 <p class="lesson_voice_box_title">
-                                    <?php echo SCF::get('age'); ?>女性
+                                    <?php echo SCF::get('age'); ?><?php echo SCF::get('seibetsu'); ?>
                                     お子さん2人と参加
                                 </p>
                                 <p class="lesson_voice_box_text">
