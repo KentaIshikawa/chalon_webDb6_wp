@@ -17,11 +17,11 @@
                         'post_type'=>'menu',
                         'posts_per_page'=>-1,
                         'tax_query'=>[
-                            [
+                            
                                 'taxonomy'=>'kind',
                                 'field'=>'slug',
                                 'terms'=>'cake'
-                            ]
+                            
                         ]
                     ];
 
