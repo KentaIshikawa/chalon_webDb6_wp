@@ -97,8 +97,12 @@
                                     <?php endif; ?>
                                 </p>
                                 <p class="lesson_voice_box_text">
-                                    子供二人と、三人で参加しました。一つ一つの工程がとてもわかりやすかったです。<br>
-                                    家でも作りやすい内容だったので、オーブンを買って子供と一緒に挑戦しようと思っています。
+                                   <?php
+                                    $children = SCF::get('children');
+                                    echo '<pre>';
+                                    print_r($children);
+                                    echo '</pre>';
+                                   ?>
                                 </p>
                                 
                                 <a href="voice/"></a>
