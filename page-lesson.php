@@ -4,8 +4,8 @@
     <section class="lesson">
         <h3 class="page_title">お菓子作りで<span class="break">楽しい思い出を</span></h3>
         <picture class="lesson_top_img center">
-            <source srcset="../img/lesson_top.webp" type="image/webp">
-            <img src="../img/lesson_top.jpg" alt="カップケーキの写真">
+            <source srcset="<?php echo get_template_directory_uri(); ?>/img/lesson_top.webp" type="image/webp">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/lesson_top.jpg" alt="カップケーキの写真">
         </picture>
         <section class="lesson_feature">
             <div class="lesson_feature_inner center">
