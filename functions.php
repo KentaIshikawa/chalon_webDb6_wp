@@ -145,6 +145,16 @@ function chalon_enqueue(){
         );
     }
 
+    //お菓子教室
+    if(is_page('lesson')){
+        wp_enqueue_style(
+            'chalon-lesson',
+            get_template_directory_uri().'/css/page/lesson.css',
+            [],
+            filemtime(get_theme_file_path('/css/page/lesson.css'))
+        );
+    }
+
 }///////CSS・JSの読み込みここまで//////////////
 
 //SVGファイルをアップロード出来るようにする
