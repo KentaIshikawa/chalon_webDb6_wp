@@ -45,8 +45,6 @@
                 </div>
                 <div class="menu_other_img">
                     <?php
-                    //ポストタイプがmenuで、
-                    //カスタムタクソノミー種類のタームが、ケーキの物
                     $cake_args = [
                         'post_type'=>'menu',
                         'posts_per_page'=>-1,
@@ -76,38 +74,26 @@
                     <p>ケーキをなるべく早く、美味しく召し上がって頂く為にイートインスペースを作りました。イートインスペースでのみ、ドリンクをご用意しています。ケーキと一緒に是非召し上がってください。</p>
                 </div>
                 <div class="menu_drink_img">
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_15.webp" type="image/webp">
-                            <img src="../img/menu_15.jpg" alt="コーヒー">
-                        </picture>
-                        <figcaption>コーヒー</figcaption>
-                        <a href="#"></a>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_16.webp" type="image/webp">
-                            <img src="../img/menu_16.jpg" alt="アイスコーヒー">
-                        </picture>
-                        <figcaption>アイスコーヒー</figcaption>
-                        <a href="#"></a>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_17.webp" type="image/webp">
-                            <img src="../img/menu_17.jpg" alt="紅茶">
-                        </picture>
-                        <figcaption>紅茶</figcaption>
-                        <a href="#"></a>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_18.webp" type="image/webp">
-                            <img src="../img/menu_18.jpg" alt="アイスティー">
-                        </picture>
-                        <figcaption>アイスティー</figcaption>
-                        <a href="#"></a>
-                    </figure>
+                    <?php
+                    $cake_args = [
+                        'post_type'=>'menu',
+                        'posts_per_page'=>-1,
+                        'tax_query'=>[
+                            [
+                                'taxonomy'=>'kind',
+                                'field'=>'slug',
+                                'terms'=>'drink'
+                            ]
+                        ]
+                    ];
+
+                    $cake_query = new WP_Query($cake_args);
+                    ?>
+                    <?php if($cake_query->have_posts()): ?>
+                        <?php while($cake_query->have_posts()):$cake_query->the_post(); ?>
+                            <?php get_template_part('template/menu'); ?>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
                 </div>
             </div>
         </section>
