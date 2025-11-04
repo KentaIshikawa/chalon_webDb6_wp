@@ -10,15 +10,25 @@
                     </p>
                 </div>
                 <div class="menu_cake_img">
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_01.webp" type="image/webp">
-                            <img src="../img/menu_01.jpg" alt="ショートケーキ">
-                        </picture>
-                        <figcaption>ショートケーキ</figcaption>
-                        <a href="#"></a>
-                    </figure>
-                    
+                    <?php
+                    //ポストタイプがmenuで、
+                    //カスタムタクソノミー種類のタームが、ケーキの物
+                    $cake_args = [];
+
+                    $cake_query = new WP_Query($cake_args);
+                    ?>
+                    <?php if(have_posts()): ?>
+                        <?php while(have_posts()):the_post(); ?>
+                            <figure>
+                                <picture>
+                                    <source srcset="../img/menu_01.webp" type="image/webp">
+                                    <img src="../img/menu_01.jpg" alt="ショートケーキ">
+                                </picture>
+                                <figcaption>ショートケーキ</figcaption>
+                                <a href="#"></a>
+                            </figure>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
                 </div>
             </div>
         </section>
