@@ -8,10 +8,7 @@
         <div class="voice_inner">
             <h3 class="page_title"><?php get_template_part('template/voice','title'); ?></h3>
             <div class="voice_box">
-                <picture>
-                    <source srcset="../../img/voice_01.webp" type="image/webp">
-                    <img src="../../img/voice_01.jpg" alt="voice01">
-                </picture>
+                <?php get_template_part('template/thumbnail') ?>
                 <div>
                     <dl>
                         <dt>お名前</dt>
