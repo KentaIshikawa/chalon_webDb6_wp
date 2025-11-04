@@ -20,7 +20,7 @@
                     $file = 'news';
                     $alt = 'お知らせ';
                 }
-                if(is_singular('menu') or is_post_type_archive('menu') ){
+                if(is_singular('menu') or is_post_type_archive('menu')){
                     $file = 'menu';
                     $alt = 'メニュー';
                 }
