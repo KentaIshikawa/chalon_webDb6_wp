@@ -24,8 +24,7 @@
                         <?php while($cake_query->have_posts()):$cake_query->the_post(); ?>
                             <figure>
                                 <picture>
-                                    <source srcset="../img/menu_01.webp" type="image/webp">
-                                    <img src="../img/menu_01.jpg" alt="ショートケーキ">
+                                    <?php get_template_part('template/thumbnail'); ?>
                                 </picture>
                                 <figcaption><?php the_title(); ?></figcaption>
                                 <a href="#"></a>
