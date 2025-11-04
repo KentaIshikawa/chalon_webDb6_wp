@@ -71,20 +71,29 @@
                     </p>
                 </div>
                 <div class="lesson_voice_box_wrap slider">
-                    
-                    <div class="lesson_voice_box">
-                        <picture>
-                            <source srcset="<?php echo get_template_directory_uri(); ?>/img/lesson_voice01.webp" type="image/webp">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/lesson_voice01.jpg" alt="参加者の声">
-                        </picture>
-                        <p class="lesson_voice_box_title">20代女性 お子さん2人と参加</p>
-                        <p class="lesson_voice_box_text">
-                            子供二人と、三人で参加しました。一つ一つの工程がとてもわかりやすかったです。<br>
-                            家でも作りやすい内容だったので、オーブンを買って子供と一緒に挑戦しようと思っています。
-                        </p>
-                        <a href="voice/"></a>
-                    </div>
-                    
+                    <?php
+                    //カスタム投稿voiceの記事を全件取得
+                    $voice_args = [
+
+                    ];
+                    $voice_query = new WP_Query($voice_args);
+                    ?>
+                    <?php if($voice_query->have_posts()): ?>
+                        <?php while($voice_query->have_posts()):$voice_query->the_post(); ?>
+                            <div class="lesson_voice_box">
+                                <picture>
+                                    <source srcset="<?php echo get_template_directory_uri(); ?>/img/lesson_voice01.webp" type="image/webp">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/lesson_voice01.jpg" alt="参加者の声">
+                                </picture>
+                                <p class="lesson_voice_box_title">20代女性 お子さん2人と参加</p>
+                                <p class="lesson_voice_box_text">
+                                    子供二人と、三人で参加しました。一つ一つの工程がとてもわかりやすかったです。<br>
+                                    家でも作りやすい内容だったので、オーブンを買って子供と一緒に挑戦しようと思っています。
+                                </p>
+                                <a href="voice/"></a>
+                            </div>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
                     
                     
                     
