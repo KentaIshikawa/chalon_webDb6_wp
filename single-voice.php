@@ -14,10 +14,12 @@
                         <dt>お名前</dt>
                         <dd><?php echo SCF::get('family_name'); ?> <?php echo SCF::get('first_name'); ?></dd>
                     </dl>
-                    <dl>
-                        <dt>お子さん</dt>
-                        <dd>6歳女の子と5歳男の子</dd>
-                    </dl>
+                    <?php if(SCF::get('child_sanka') === '有'): ?>
+                        <dl>
+                            <dt>お子さん</dt>
+                            <dd>6歳女の子と5歳男の子</dd>
+                        </dl>
+                    <?php endif; ?>
                     <dl>
                         <dt>コース</dt>
                         <dd>Aコース（月2回）</dd>
