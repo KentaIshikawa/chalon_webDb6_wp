@@ -179,6 +179,15 @@ function chalon_enqueue(){
         );
 
     }
+    //各voice
+    if(is_singular('voice')){
+        wp_enqueue_style(
+            'chalon-voice',
+            get_template_directory_uri().'/css/page/voice.css',
+            [],
+            filemtime(get_theme_file_path('/css/page/voice.css'))
+        );
+    }
 
 }///////CSS・JSの読み込みここまで//////////////
 
