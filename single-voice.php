@@ -26,9 +26,10 @@
                                 <?php
                                     $children = SCF::get('children');
                                     $children_arr = [];
-                                    $children_arr[]=$children[0]['child_age'].$children[0]['child_seibetsu'];
-                                    $children_arr[]=$children[1]['child_age'].$children[1]['child_seibetsu'];
 
+                                    foreach($children as $child){
+                                        $children_arr[]=$child['child_age'].$child['child_seibetsu'];
+                                    };
                                     echo implode('と',$children_arr);
                                 ?>
                                 
