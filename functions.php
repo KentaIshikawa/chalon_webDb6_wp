@@ -163,7 +163,7 @@ function chalon_enqueue(){
             filemtime(get_theme_file_path('/css/page/lesson.css'))
         );
 
-wp_enqueue_script(
+        wp_enqueue_script(
             'slick',
             'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js',
             [],
@@ -171,10 +171,10 @@ wp_enqueue_script(
             true
         );
         wp_enqueue_script(
-            'chalon-top',
-            get_template_directory_uri().'/js/top.js',
+            'chalon-lesson',
+            get_template_directory_uri().'/js/lesson.js',
             [],
-            filemtime(get_theme_file_path('/js/top.js')),
+            filemtime(get_theme_file_path('/js/lesson.js')),
             true
         );
 
