@@ -17,8 +17,8 @@
 
                     $cake_query = new WP_Query($cake_args);
                     ?>
-                    <?php if(have_posts()): ?>
-                        <?php while(have_posts()):the_post(); ?>
+                    <?php if($cake_query->have_posts()): ?>
+                        <?php while($cake_query->have_posts()):$cake_query->the_post(); ?>
                             <figure>
                                 <picture>
                                     <source srcset="../img/menu_01.webp" type="image/webp">
