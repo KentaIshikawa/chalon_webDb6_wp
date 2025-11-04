@@ -54,7 +54,7 @@
                             [
                                 'taxonomy'=>'kind',
                                 'field'=>'slug',
-                                'terms'=>'cake'
+                                'terms'=>'other'
                             ]
                         ]
                     ];
