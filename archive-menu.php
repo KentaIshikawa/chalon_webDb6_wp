@@ -15,7 +15,14 @@
                     //カスタムタクソノミー種類のタームが、ケーキの物
                     $cake_args = [
                         'post_type'=>'menu',
-                        'posts_per_page'=>-1
+                        'posts_per_page'=>-1,
+                        'tax_query'=>[
+                            [
+                                'taxonomy'=>'kind',
+                                'field'=>'slug',
+                                'terms'=>'cake'
+                            ]
+                        ]
                     ];
 
                     $cake_query = new WP_Query($cake_args);
