@@ -162,6 +162,22 @@ function chalon_enqueue(){
             [],
             filemtime(get_theme_file_path('/css/page/lesson.css'))
         );
+
+wp_enqueue_script(
+            'slick',
+            'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js',
+            [],
+            '',
+            true
+        );
+        wp_enqueue_script(
+            'chalon-top',
+            get_template_directory_uri().'/js/top.js',
+            [],
+            filemtime(get_theme_file_path('/js/top.js')),
+            true
+        );
+
     }
 
 }///////CSS・JSの読み込みここまで//////////////
