@@ -93,16 +93,14 @@
                                     <?php echo SCF::get('age'); ?><?php echo SCF::get('seibetsu'); ?>
                                     <?php if(SCF::get('child_sanka')==='有'): ?>
                                         <br>
-                                        お子さん2人と参加
+                                        <?php
+                                            $children = SCF::get('children');
+                                        ?>
+                                        お子さん<?php echo count($children); ?>人と参加
                                     <?php endif; ?>
                                 </p>
                                 <p class="lesson_voice_box_text">
-                                   <?php
-                                    $children = SCF::get('children');
-                                    echo '<pre>';
-                                    print_r(count($children));
-                                    echo '</pre>';
-                                   ?>
+                                   
                                 </p>
                                 
                                 <a href="voice/"></a>
