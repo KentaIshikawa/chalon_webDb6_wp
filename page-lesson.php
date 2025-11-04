@@ -59,7 +59,7 @@
                     <li>入会金はご家族単位です。</li>
                 </ul>
             </div>
-            <a href="<?php echo home_url('lesson/trial/'); ?>" class="btn">無料体験のお申込みはこちら</a>
+            <a href="<?php echo home_url('/lesson/trial/'); ?>" class="btn">無料体験のお申込みはこちら</a>
         </section>
         <section class="lesson_voice">
             <div class="lesson_voice_inner">
