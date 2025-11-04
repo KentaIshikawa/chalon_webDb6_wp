@@ -18,62 +18,7 @@
                         <figcaption>ショートケーキ</figcaption>
                         <a href="#"></a>
                     </figure>
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_02.webp" type="image/webp">
-                            <img src="../img/menu_02.jpg" alt="チョコレートケーキ">
-                        </picture>
-                        <figcaption>チョコレートケーキ</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_03.webp" type="image/webp">
-                            <img src="../img/menu_03.jpg" alt="チーズケーキ">
-                        </picture>
-                        <figcaption>チーズケーキ</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_04.webp" type="image/webp">
-                            <img src="../img/menu_04.jpg" alt="ベイクドチーズケーキ">
-                        </picture>
-                        <figcaption>ベイクドチーズケーキ</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_05.webp" type="image/webp">
-                            <img src="../img/menu_05.jpg" alt="モンブラン">
-                        </picture>
-                        <figcaption>モンブラン</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_06.webp" type="image/webp">
-                            <img src="../img/menu_06.jpg" alt="ロールケーキ">
-                        </picture>
-                        <figcaption>ロールケーキ</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_07.webp" type="image/webp">
-                            <img src="../img/menu_07.jpg" alt="フルーツタルト">
-                        </picture>
-                        <figcaption>フルーツタルト</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_08.webp" type="image/webp">
-                            <img src="../img/menu_08.jpg" alt="イチゴのタルト">
-                        </picture>
-                        <figcaption>イチゴのタルト</figcaption>
-                    </figure>
-                    <figure>
-                        <picture>
-                            <source srcset="../img/menu_09.webp" type="image/webp">
-                            <img src="../img/menu_09.jpg" alt="ティラミス">
-                        </picture>
-                        <figcaption>ティラミス</figcaption>
-                    </figure>
+                    
                 </div>
             </div>
         </section>
