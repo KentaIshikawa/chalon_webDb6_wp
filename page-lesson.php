@@ -86,9 +86,9 @@
                                     <?php
                                     $img = SCF::get('archive_img');
                                     $img_url = !empty($img)?wp_get_attachment_url($img):'https://placehold.jp/f77237/ffffff/100x100.png?text=No%20Image';
-                                    $alt =!empty($img)?get_the_title():'';
+                                    $alt =!empty($img)?get_the_title().'さんの画像':'';
                                     ?>
-                                    <img src="<?php echo $img_url; ?>" alt="<?php echo $alt; ?>さんの画像">
+                                    <img src="<?php echo $img_url; ?>" alt="<?php echo $alt; ?>">
                                 </picture>
                                 <p class="lesson_voice_box_title">
                                     <?php echo SCF::get('age'); ?><?php echo SCF::get('seibetsu'); ?>
