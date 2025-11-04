@@ -29,13 +29,7 @@
                     ?>
                     <?php if($cake_query->have_posts()): ?>
                         <?php while($cake_query->have_posts()):$cake_query->the_post(); ?>
-                            <figure>
-                                <picture>
-                                    <?php get_template_part('template/thumbnail'); ?>
-                                </picture>
-                                <figcaption><?php the_title(); ?></figcaption>
-                                <a href="<?php the_permalink(); ?>"></a>
-                            </figure>
+                            
                         <?php endwhile; ?>
                     <?php endif; ?>
                 </div>
