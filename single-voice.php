@@ -23,6 +23,16 @@
                                 print_r(SCF::get('children'));
                                 echo '</pre>';
                                 ?>
+                                <?php
+                                    $children = SCF::get('children');
+                                    $children_arr = [];
+                                    $children_arr[]=$children[0]['child_age']
+                                ?>
+                                <?php
+                                echo '<pre>';
+                                print_r(SCF::get('children_arr'));
+                                echo '</pre>';
+                                ?>
                             </dd>
                         </dl>
                     <?php endif; ?>
