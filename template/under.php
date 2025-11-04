@@ -24,6 +24,10 @@
                     $file = 'menu';
                     $alt = 'メニュー';
                 }
+                if(is_page('lesson')){
+                    $file = 'lesson';
+                    $alt = 'お菓子教室';
+                }
             ?>
             <img class="sp contents_title" src="<?php echo get_template_directory_uri(); ?>/img/title_<?php echo $file; ?>_sp.svg" alt="<?php echo $alt; ?>">
             <img class="pc contents_title" src="<?php echo get_template_directory_uri(); ?>/img/title_<?php echo $file; ?>_pc.svg" alt="<?php echo $alt; ?>">
