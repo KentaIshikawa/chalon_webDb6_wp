@@ -71,6 +71,7 @@
                     </p>
                 </div>
                 <div class="lesson_voice_box_wrap slider">
+                    
                     <div class="lesson_voice_box">
                         <picture>
                             <source srcset="<?php echo get_template_directory_uri(); ?>/img/lesson_voice01.webp" type="image/webp">
@@ -83,54 +84,10 @@
                         </p>
                         <a href="voice/"></a>
                     </div>
-                    <div class="lesson_voice_box">
-                        <picture>
-                            <source srcset="<?php echo get_template_directory_uri(); ?>/img/lesson_voice01.webp" type="image/webp">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/lesson_voice01.jpg" alt="参加者の声">
-                        </picture>
-                        <p class="lesson_voice_box_title">20代女性 お子さん2人と参加</p>
-                        <p class="lesson_voice_box_text">
-                            子供二人と、三人で参加しました。一つ一つの工程がとてもわかりやすかったです。<br>
-                            家でも作りやすい内容だったので、オーブンを買って子供と一緒に挑戦しようと思っています。
-                        </p>
-                        <a href="#"></a>
-                    </div>
-                    <div class="lesson_voice_box">
-                        <picture>
-                            <source srcset="<?php echo get_template_directory_uri(); ?>/img/lesson_voice01.webp" type="image/webp">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/lesson_voice01.jpg" alt="参加者の声">
-                        </picture>
-                        <p class="lesson_voice_box_title">20代女性 お子さん2人と参加</p>
-                        <p class="lesson_voice_box_text">
-                            子供二人と、三人で参加しました。一つ一つの工程がとてもわかりやすかったです。<br>
-                            家でも作りやすい内容だったので、オーブンを買って子供と一緒に挑戦しようと思っています。
-                        </p>
-                        <a href="#"></a>
-                    </div>
-                    <div class="lesson_voice_box">
-                        <picture>
-                            <source srcset="<?php echo get_template_directory_uri(); ?>/img/lesson_voice01.webp" type="image/webp">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/lesson_voice01.jpg" alt="参加者の声">
-                        </picture>
-                        <p class="lesson_voice_box_title">20代女性 お子さん2人と参加</p>
-                        <p class="lesson_voice_box_text">
-                            子供二人と、三人で参加しました。一つ一つの工程がとてもわかりやすかったです。<br>
-                            家でも作りやすい内容だったので、オーブンを買って子供と一緒に挑戦しようと思っています。
-                        </p>
-                        <a href="#"></a>
-                    </div>
-                    <div class="lesson_voice_box">
-                        <picture>
-                            <source srcset="<?php echo get_template_directory_uri(); ?>/img/lesson_voice01.webp" type="image/webp">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/lesson_voice01.jpg" alt="参加者の声">
-                        </picture>
-                        <p class="lesson_voice_box_title">20代女性 お子さん2人と参加</p>
-                        <p class="lesson_voice_box_text">
-                            子供二人と、三人で参加しました。一つ一つの工程がとてもわかりやすかったです。<br>
-                            家でも作りやすい内容だったので、オーブンを買って子供と一緒に挑戦しようと思っています。
-                        </p>
-                        <a href="#"></a>
-                    </div>
+                    
+                    
+                    
+                    
                 </div>
                 <a href="<?php echo home_url('/lesson/trial/'); ?>" class="btn">無料体験のお申込みはこちら</a>
             </div>
