@@ -19,11 +19,6 @@
                             <dt>お子さん</dt>
                             <dd>
                                 <?php
-                                echo '<pre>';
-                                print_r(SCF::get('children'));
-                                echo '</pre>';
-                                ?>
-                                <?php
                                     $children = SCF::get('children');
                                     $children_arr = [];
 
