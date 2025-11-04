@@ -28,12 +28,10 @@
                                     $children_arr = [];
                                     $children_arr[]=$children[0]['child_age'].$children[0]['child_seibetsu'];
                                     $children_arr[]=$children[1]['child_age'].$children[1]['child_seibetsu'];
+
+                                    echo implode('と',$children_arr);
                                 ?>
-                                <?php
-                                    echo '<pre>';
-                                    print_r($children_arr);
-                                    echo '</pre>';
-                                ?>
+                                
                             </dd>
                         </dl>
                     <?php endif; ?>
