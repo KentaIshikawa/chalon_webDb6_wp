@@ -74,7 +74,8 @@
                     <?php
                     //カスタム投稿voiceの記事を全件取得
                     $voice_args = [
-
+                        'post_type'=>'voice',
+                        'posts_per_page'=>-1
                     ];
                     $voice_query = new WP_Query($voice_args);
                     ?>
