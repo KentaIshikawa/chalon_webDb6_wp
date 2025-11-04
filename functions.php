@@ -148,6 +148,15 @@ function chalon_enqueue(){
     //お菓子教室
     if(is_page('lesson')){
         wp_enqueue_style(
+            'slick-theme',
+            'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.min.css'
+        );
+        wp_enqueue_style(
+            'slick',
+            'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css'
+        );
+
+        wp_enqueue_style(
             'chalon-lesson',
             get_template_directory_uri().'/css/page/lesson.css',
             [],
