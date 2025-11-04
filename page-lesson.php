@@ -100,7 +100,7 @@
                                    <?php
                                     $children = SCF::get('children');
                                     echo '<pre>';
-                                    print_r($children);
+                                    print_r(count($children));
                                     echo '</pre>';
                                    ?>
                                 </p>
